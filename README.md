@@ -2,6 +2,13 @@
 
 這個專案目標是在esp32-s3上重現[HelloWord-Keyboard-fw](https://github.com/peng-zhihui/HelloWord-Keyboard/tree/main/2.Firmware/HelloWord-Keyboard-fw)的主要功能，並增加8000hz 輪詢率、2.4Ghz無線、藍芽、有線三模式並使用按鍵組合進行切換模式。
 
+## 要拿去投稿的文直接放這應該不會出事吧?
+研究動機：
+隨著我每天用電腦的時數增加，我發現手邊的主力鍵盤出現了一些小問題，我心想正好可以考慮入手一把客製化鍵盤或者鍵盤套件，以滿足我想要的按鍵手感和功能，但作為客製化鍵盤這個領域的新手和零用錢微薄的高中生，實在是無法承受符合我需求之套件的價格。
+一天，我看到有華為天才少年之稱的B站UP主稚暉君，上傳了一部自製他理想機械鍵盤的[影片](https://www.bilibili.com/video/BV19V4y1J7Hx/?share_source=copy_web&vd_source=dd3a6c30a880eebd5968b80ad22d5110)，並將整個項目和電路設計圖紙透過GPL-3.0和Public Domain協議開源在[GitHub](https://github.com/peng-zhihui/HelloWord-Keyboard)和[嘉立創EDA開源硬件平台](https://oshwhub.com/pengzhihui/b11afae464c54a3e8d0f77e1f92dc7b7)，於是有了複現並二次開發移植到esp32平台的想法。
+研究目的：
+分析[HelloWord-Keyboard-FW](https://github.com/peng-zhihui/HelloWord-Keyboard/tree/main/2.Firmware/HelloWord-Keyboard-fw)所擁有之主要功能，重寫程式碼使期能在ESP32-S3上執行，並增加和調整鍵盤部分功能：如8khz回報率、三模...(後續待補完)
+
 ## 本repo大部分程式碼都是使用Bing AI生成的，所以大部分功能還有待調整修正
 
 ## 目錄
