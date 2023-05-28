@@ -1,6 +1,7 @@
 # MungbeanOuO/HelloWord-KB-ESP
 
 ### 2023/5/24重寫整個程式
+### 2023/5/28改成82鍵版，開始燒錄在硬體上除錯
 
 這個專案目標是在esp32-s3上重現[HelloWord-Keyboard-fw](https://github.com/peng-zhihui/HelloWord-Keyboard/tree/main/2.Firmware/HelloWord-Keyboard-fw)的主要功能，並增加8000hz 輪詢率、2.4Ghz無線、藍芽、有線三模式並使用按鍵組合進行切換模式。
 
